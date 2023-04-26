@@ -9,7 +9,7 @@ Please use this for commit consistency.
    brew install pre-commit # you can install pre-commit using python3
    pre-commit install --hook-type commit-msg
    ```
-2. Add `.pre-commit-config.yaml` file in your repository
+2. Add this following lines in your `.pre-commit-config.yaml`.
    ```yaml
      - repo: https://github.com/ruby-kim/pre-commit-message-regex
        rev: REV_NUMBER
