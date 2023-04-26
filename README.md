@@ -11,7 +11,7 @@ Please use this for commit consistency.
    ```
 2. Add this following lines in your `.pre-commit-config.yaml`.
    ```yaml
-     - repo: https://github.com/ruby-kim/pre-commit-message-regex
+     - repo: https://github.com/ruby-kim/pre-commit-message
        rev: REV_NUMBER
        hooks:
          - id: commit-message
