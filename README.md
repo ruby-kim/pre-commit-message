@@ -1,4 +1,4 @@
-# pre-commit-message-regex
+# pre-commit-message
 Automatically abort commit if the commit message does not match the regular expression.
 Please use this for commit consistency.
 
